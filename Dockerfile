@@ -1,5 +1,5 @@
 FROM node:14-alpine
-WORKDIR /task_1
+WORKDIR /students
 COPY app.js package*.json ./
 RUN npm install
 COPY . .
